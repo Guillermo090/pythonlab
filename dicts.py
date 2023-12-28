@@ -38,3 +38,16 @@ text = 'Hola, soy Nicolas'
 
 unique = { c:c.upper() for c in text if c in 'aeiou' }
 print(unique)
+
+
+#########################################################
+#                 list vs tuple vs set                  #
+######################################################### 
+#######   mutable ordenada    indexing    duplicados #### 
+# list       x        x           x           x         #
+# tuple      -        x           x           x         #
+# set        x        -           -           -         #
+#########################################################
+
+data =  set((1,2,3,4,1))
+print(data)
