@@ -30,4 +30,8 @@ expand = np.expand_dims(np.array([1,2,3]),axis=1)
 print(expand)
 print(expand.ndim)
 
-print()
+# 
+print(vector, vector.ndim)
+vector_2 = np.squeeze(vector)
+print(vector_2, vector_2.ndim)
+
