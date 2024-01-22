@@ -29,9 +29,12 @@ print(vector.ndim)
 expand = np.expand_dims(np.array([1,2,3]),axis=1)
 print(expand)
 print(expand.ndim)
+expand_2 = np.expand_dims( np.array(12),axis= 0 )
+print(f'expandi dimeciones de un scalar 12 en eje 0 quedo como  {expand_2} ')
+expand_3 = np.expand_dims( expand_2 ,axis= 1 )
+print(f'volvi a expandir las dimenciones del ahora vector {expand_2} y quedo como {expand_3} ')
 
 # 
-print(vector, vector.ndim)
+print(f' El vector {vector} tiene {vector.ndim} dimensiones')
 vector_2 = np.squeeze(vector)
-print(vector_2, vector_2.ndim)
-
+print(f' se ha modificado con squeeze el vector a  {vector_2} ahora con  {vector_2.ndim} dimensiones')

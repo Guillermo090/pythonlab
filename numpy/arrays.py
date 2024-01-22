@@ -28,5 +28,5 @@ rand = np.random.rand(4,4)
 print(rand)
 
 
-randint = np.random.randint(1,1000,(10,10))
+randint = np.random.randint(1,1000,(5,5))
 print(randint)
