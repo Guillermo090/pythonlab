@@ -55,3 +55,6 @@ print(a)
 b = np.array([[5,6]])
 print(b)
 print( np.concatenate((a,b),axis=0) ) 
+
+# transpuesta de una matriz
+print( b.T ) 
