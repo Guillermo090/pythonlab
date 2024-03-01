@@ -16,5 +16,5 @@ only_fiction =  df_books["Genre"] == 'Fiction'
 print(df_books[only_fiction])
 print(df_books[df_books["Genre"] == 'Fiction'])
 
-
+# se pueden juntar condiciones con & y se puede negar una condicion con ~
 print(df_books[only_fiction & ~mayor_a_2016])
